@@ -4,3 +4,9 @@ def hello(fname, lname):
 
 hello('Dave','Gitau')
 hello('Mary','Wanjiku')
+
+# Return statement
+def multiply(a,b):
+    return a * b
+
+print(multiply(2,8))
