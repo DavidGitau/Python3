@@ -58,9 +58,26 @@ print(str1.isalpha())
 
 # Isdigit()
 str2 = '2022'
-print(str2.isdigit())
+print(str2.isdigit()) 
 print(str1.isdigit())
 
+# Format()
+animal = 'cow'
+item = 'moon'
+number = 3.1415
+num2 = 1000
+
+print('The number pi is {:.2f}'.format(number))
+print('The number is {:,}'.format(num2))
+print('The number is {:b}'.format(num2))
+print('The number is {:o}'.format(num2))
+print('The number is {:x}'.format(num2))
+print('The number is {:E}'.format(num2))
+
+
+print('The {:10} jumped over the {:>10}'.format(animal,item))
+print('The {0:^10} jumped over the {1:<10}'.format(animal,item))        # positional argument
+# print('The {item} jumped {animal} over the {animal}'.format(animal='cow',item='moon'))        # keyword argument
 
 
 
