@@ -33,3 +33,14 @@ def add(*args):
     return sum
 
 print(add(1,2,3,4,5))
+
+"""
+**kwargs
+parameter that will pack all arguments into a dictionary
+useful so that a function can accept a varying amount of keyword arguments
+"""
+def hello2(**kwargs):
+    print('Hello',end=' ')
+    for key, value in kwargs.items(): print(f'{value}',end=' ')
+
+hello2(title='Mr',f='Dave',m='Lyon',l='Gitau')
