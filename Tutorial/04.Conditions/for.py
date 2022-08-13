@@ -25,6 +25,8 @@ import sys
 # else:
 #     print('The list does not contain an even number!')
 
+# for i in range(50, 100, 2):
+#     print(i)
 
 # # NESTED FOR LOOP
 # for i in range(1, 15):

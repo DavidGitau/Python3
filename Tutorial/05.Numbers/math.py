@@ -40,3 +40,6 @@ print('Math.log10(2):',math.log10(2))
 print('Math.log10(100.12):',math.log10(100.12))
 print('Math.log10(100.72):',math.log10(100.72))
 print('Math.log10(math.pi):',math.log10(math.pi))
+
+# Power
+print('The 3rd power of 100 :',math.pow(100,3))

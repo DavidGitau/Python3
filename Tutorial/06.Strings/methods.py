@@ -4,6 +4,10 @@ import time
 
 str1 = 'this is a string example... wow!!!'
 print('str1.capitalize() :',str1.capitalize())       # Capitalize
+print('str1.upper() :',str1.upper())                 # Upper
+print('str1.lower() :',str1.lower())                 # Lower
+print('str1.count(i) :',str1.count('i'))             # Count
+print('Replace a with e',str1.replace('a', 'e'))     # Replace
 print('str1.center(40, "a") :',str1.center(40, "a"))
 
 # count() returns the number of occurrences of a substring sub in the range [start, end]

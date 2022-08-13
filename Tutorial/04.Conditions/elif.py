@@ -2,7 +2,7 @@
 
 amount = eval(input('Enter amount: '))
 
-if amount < 1000:
+if (amount < 1000) and (amount > 0):
     discount = amount * 0.05
     print('Amount below 1000\nDiscount:',discount)
 elif amount < 5000:
