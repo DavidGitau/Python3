@@ -41,4 +41,9 @@ to_dollars = lambda data: (data[0],'{:.2f}'.format(data[1]/0.82))
 store_euros = list(map(to_euros, store))
 store_dollars = list(map(to_dollars, store))
 
-for e in store_dollars: print(e)
+# for e in store_dollars: print(e)
+
+# Filter function
+age = lambda data: data[2] >= 35
+old = list(filter(age,students))
+for o in old: print(o)
