@@ -46,4 +46,14 @@ store_dollars = list(map(to_dollars, store))
 # Filter function
 age = lambda data: data[2] >= 35
 old = list(filter(age,students))
-for o in old: print(o)
+# for o in old: print(o)
+
+# Reduce Function
+import functools
+letters = ['H','E','L','L','O']
+word = functools.reduce((lambda x, y: x + y),letters)
+print(word)
+
+factorial = [5,4,3,2,1]
+result = functools.reduce((lambda x, y: x * y),factorial)
+print(result)
