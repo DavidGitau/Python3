@@ -29,3 +29,17 @@ input('\n\nPress the ENTER key to continue')
 
 # Multiple statements on a single line
 import sys; x = 'foo'; sys.stdout.write(x+'\n')
+
+# Walrus opertaor
+x = 'Yes'
+print(x)
+print(y := 'no')
+
+foods = []
+# while True:
+#         food = input('What food do you like?: ')
+#         if food == 'quit':
+#                 break
+#         foods.append(food)
+while food := input('What food do you like?: ') != 'quit':
+        foods.append(food)
