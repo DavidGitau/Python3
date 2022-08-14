@@ -25,4 +25,14 @@ age = lambda ages : ages[1]
 students.sort(key=age)
 sorted_st = sorted(students_t, key=age, reverse=True)
 
-for i in sorted_st: print(i)
+# for i in sorted_st: print(i)
+
+# map() applies a func to each item in an iterable 
+store = [
+    ('shirt', 20.00),
+    ('pants', 25.00),
+    ('jackets', 50.00),
+    ('socks', 10.00)
+]
+
+to_euros = lambda data: (data[0],({.2f}).format(data[1]*0.82))
